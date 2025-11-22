@@ -2,9 +2,9 @@ That's a well-structured multithreaded port scanner written in Python! 🧑‍�
 
 Here is a professional and educational review of your code, highlighting its strengths and suggesting potential improvements.
 
-✨ Code Review & Analysis
+ Code Review & Analysis
 
-🎯 Strengths
+Strengths
 
     Effective Concurrency: Using the threading module with a queue.Queue is excellent for I/O-bound tasks like port scanning. This allows your script to check many ports concurrently, significantly speeding up the scan compared to a serial approach.
 
