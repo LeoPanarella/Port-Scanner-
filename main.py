@@ -2,7 +2,7 @@ import socket
 import threading
 from queue import Queue
 
-target = "127.0.0.1" # The target IP address for the scan; 'localhost', or the local machine.
+target = "***.*.*.*" # The target IP address for the scan; 'localhost', or the local machine.
 queue = Queue()
 open_ports = []
 
